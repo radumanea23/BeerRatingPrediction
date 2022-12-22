@@ -1,1 +1,6 @@
-# RecommenderSystemProject2022
+## Predicting Beer Ratings from User Reviews
+Recommender systems offer a solution to the information overload problem by utilizing rating prediction approaches to generate personalized recommendations. These systems predict the ratings that a user will give to particular items and create lists of items sorted according to the user's preferences. As internet users become increasingly diverse in their personalization drifts and behaviors, these systems are increasingly effective in helping to filter information. In this study we use beer ratings data to feature engineer a model to predict ratings users give to a beer. The final iteration of our model is a logistic regression algorithm that utilizes a bag-of-words model in conjunction with features surrounding the qualities of each beer.
+This dataset[1] contains ~3 million beer reviews curated from 2000 to 2011. Each entry in the dataset is partitioned into information about the beer review. The beer information contains details such as the name, ABV, and style. The review information contains a user’s profile name, review time, as well as ratings for the appearance, aroma, palate, taste and an overall rating. In order to efficiently analyze this data and build a predictor with the computation power available, we randomly subsetted the dataset into 200,000 records from 2000 to 2011. There are a total of 9,510 users and 8,202 unique beers in the dataset.
+
+#### Dataset can be found here.
+https://cseweb.ucsd.edu/~jmcauley/datasets.html#multi_aspect
